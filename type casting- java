@@ -1,0 +1,10 @@
+public class ImplicitTypeCasting {
+    public static void main(String[] args) {
+
+        int num = 100;
+        double result = num;   // Automatic Conversion
+
+        System.out.println("Integer Value : " + num);
+        System.out.println("Double Value  : " + result);
+    }
+}
